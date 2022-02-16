@@ -2,7 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {createStore, combineReducers} from 'redux';
 import reportWebVitals from './reportWebVitals';
+
+
+
+//   () => console.log(store.getState())
+//   )
+// le suscribe permet d'écouter les changements au niveau de ntore store. On lui donne en paramètre une fonction
+
+// redux offre un outil de debug intéressat, redux devtool
 
 ReactDOM.render(
   <React.StrictMode>
